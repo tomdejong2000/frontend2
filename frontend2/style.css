@@ -1,0 +1,453 @@
+body {
+    background: url(animatebg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    -webkit-box-shadow: inset 10px 10px 900px 800px rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 10px 10px 900px 800px rgba(255, 255, 255, 0.26);
+    box-shadow: inset 10px 10px 900px 800px rgba(255, 255, 255, 0.26);
+
+}
+
+main {
+    padding-left: 30%;
+    width: 50%;
+    height: 150vh;
+
+}
+
+header {
+    background-color: white;
+    margin-left: 15%;
+    padding: 0;
+    height: 100px;
+    width: 35vh;
+    padding-top: 3%;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: grey;
+    font-size: 250%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 400%;
+
+    color: white;
+    height: 250px;
+    width: 500px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+
+}
+
+.knopjes {
+
+    width: 140vh;
+    height: 70vh;
+    margin-left: -230px;
+    margin-top: 10vh;
+}
+
+.blok1 {
+    height: 250px;
+    width: 180px;
+    display: inline-block;
+    font-size: 50px;
+    float: left;
+    color: white;
+    -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    padding-left: 70px;
+
+}
+
+.blok1:hover {
+    background-image: url("overmij.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 0;
+}
+
+.blok2 {
+
+    height: 250px;
+    width: 220px;
+    display: inline-block;
+    float: left;
+    -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    font-size: 50px;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.blok2:hover {
+    background-image: url("ervaring.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 0;
+}
+
+.blok3 {
+
+    height: 250px;
+    width: 235px;
+
+    float: left;
+    -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    font-size: 50px;
+    color: white;
+    padding-left: 15px;
+}
+
+.blok3:hover {
+    background-image: url("project.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+
+.blok4 {
+
+    height: 250px;
+    width: 250px;
+
+    float: left;
+
+    font-size: 50px;
+    color: white;
+}
+
+.blok5 {
+
+    height: 250px;
+    width: 250px;
+
+    float: left;
+
+    font-size: 50px;
+    color: white;
+}
+
+.blok6 {
+
+    height: 250px;
+    width: 210px;
+
+    float: left;
+    -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+}
+
+.blok6:hover {
+    background-image: url("mail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 0;
+}
+
+.blok7 {
+
+}
+
+.blok8 {
+
+}
+
+.gegevens {
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    padding-top: 50px;
+}
+
+.ervaring {
+    width: 100%;
+    height: 70vh;
+    background-image: url("background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30px;
+}
+
+.projecten {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+h3 {
+    border-bottom: double 3px #8e8e8e;
+    border-top: double 3px #8e8e8e;
+    font-size: 80px;
+    width: 380px;
+    text-align: center;
+    color: grey;
+    margin: 0 auto;
+
+}
+
+h4 {
+    border-bottom: double 3px white;
+    border-top: double 3px white;
+    font-size: 80px;
+    width: 560px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+
+}
+
+h5 {
+    border-bottom: double 3px #8e8e8e;
+    border-top: double 3px #8e8e8e;
+    font-size: 80px;
+    width: 580px;
+    text-align: center;
+    color: grey;
+    margin: 0 auto;
+
+}
+
+h6 {
+    border-bottom: double 3px white;
+    border-top: double 3px white;
+    font-size: 80px;
+    width: 560px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+
+}
+
+.omhoog {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 250px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.projecten img {
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.contact {
+    background-image: url(contact-background2.png);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3vh;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        width: 360px;
+
+    }
+
+    main {
+        width: 260px;
+        margin: 0;
+        padding-left: 0px;
+    }
+
+
+    .knopjes {
+        width: 360px;
+        margin-left: 0;
+
+    }
+
+    h2 {
+        font-size: 6vh;
+        margin-left: 50px;
+        width: 250px;
+        height: 50px;
+    }
+
+    header{
+        height: 80px;
+    }
+
+    .gegevens{
+        width: 360x;
+    }
+
+    .projecten{
+        width: 360px;
+
+    }
+    .ervaring{
+        width: 360px;
+    }
+    .contact{
+        width: 360px;
+    }
+
+    .blok1 {
+        display: inline-block;
+        float: left;
+        height: 180px;
+        width: 180px;
+        font-size: 6vh;
+    padding: 0;
+        margin: 0;
+    }
+
+    .blok2 {
+        display: inline-block;
+        float: left;
+
+        height: 180px;
+        width: 180px;
+        font-size: 6vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blok3 {
+        display: inline-block;
+        float: left;
+
+        height: 150px;
+        width: 150px;
+        font-size: 6vh;
+
+    }
+
+    .blok4 {
+        display: none;
+        float: none;
+
+        height: 0px;
+        width: 0px;
+        font-size: 0vh;
+    }
+
+    .blok5 {
+        display: none;
+        float: none;
+
+        height: 0px;
+        width: 0px;
+        font-size: 6vh;
+    }
+
+    .blok6 {
+        display: inline-block;
+        float: left;
+
+        height: 150px;
+        width: 150px;
+        font-size: 6vh;
+
+    }
+
+    .blok1:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 6vh
+    }
+
+    .blok2:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 6vh
+    }
+
+    .blok3:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 6vh
+    }
+
+    .blok4:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 3vh
+    }
+
+    .blok5:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 6vh
+    }
+
+    .blok6:hover {
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 6vh
+    }
+    img{
+        width: 200px;
+        height: 100px;
+    }
+
+    h3{
+        width: 360px;
+        font-size: 8vh;
+    }
+
+    h4{
+        width: 360px;
+        font-size: 8vh;
+    }
+
+    h5{
+        width: 360px;
+        font-size: 8vh;
+    }
+
+    h6{
+        width: 360px;
+        font-size: 8vh;
+    }
+}
