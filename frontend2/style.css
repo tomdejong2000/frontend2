@@ -13,6 +13,8 @@ body {
 
 }
 
+
+
 main {
     padding-left: 30%;
     width: 50%;
@@ -65,15 +67,16 @@ h2 {
 
 .blok1 {
     height: 250px;
-    width: 180px;
+    width: 250px;
     display: inline-block;
     font-size: 50px;
+    text-align: center;
     float: left;
     color: white;
     -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
-    padding-left: 70px;
+    padding: 0;
 
 }
 
@@ -88,7 +91,7 @@ h2 {
 .blok2 {
 
     height: 250px;
-    width: 220px;
+    width: 250px;
     display: inline-block;
     float: left;
     -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
@@ -96,7 +99,8 @@ h2 {
     box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     font-size: 50px;
     color: white;
-    padding-left: 30px;
+    padding: 0;
+    text-align: center;
 
 }
 
@@ -111,15 +115,15 @@ h2 {
 .blok3 {
 
     height: 250px;
-    width: 235px;
-
+    width: 250px;
+    text-align: center;
     float: left;
     -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     font-size: 50px;
     color: white;
-    padding-left: 15px;
+    padding: 0;
 }
 
 .blok3:hover {
@@ -138,6 +142,7 @@ h2 {
 
     font-size: 50px;
     color: white;
+
 }
 
 .blok5 {
@@ -154,15 +159,16 @@ h2 {
 .blok6 {
 
     height: 250px;
-    width: 210px;
-
+    width: 250px;
+    text-align: center;
     float: left;
     -webkit-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     box-shadow: inset 1px 12px 83px 65px rgba(0, 0, 0, 0.75);
     font-size: 50px;
     color: white;
-    padding-left: 40px;
+    padding: 0;
+    
 }
 
 .blok6:hover {
@@ -186,6 +192,16 @@ h2 {
     width: 100%;
     height: 90vh;
     padding-top: 50px;
+    color: grey;
+
+}
+
+.gegevens p{
+    font-size: 5vh;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13vh;
 }
 
 .ervaring {
@@ -197,6 +213,15 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 30px;
+}
+
+.ervaring p{
+    font-size: 5vh;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 13vh;
+    color: white;
 }
 
 .projecten {
@@ -281,6 +306,28 @@ h6 {
     padding-top: 3vh;
 }
 
+.contact ul{
+    font-size: 4vh;
+    color: white;
+    list-style-type: none;
+    margin-left: 23%;
+    padding: 0;
+    text-align: center;
+}
+.ul1{
+    position: relative;
+    display: inline-block;
+
+}
+.ul2{
+
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
 @media only screen and (max-width: 700px) {
     body {
         width: 360px;
@@ -291,20 +338,24 @@ h6 {
         width: 260px;
         margin: 0;
         padding-left: 0px;
+        height: 500px;
     }
 
 
     .knopjes {
         width: 360px;
         margin-left: 0;
+        margin-top: 6vh;
+        height: 300px;
 
     }
 
     h2 {
-        font-size: 6vh;
-        margin-left: 50px;
-        width: 250px;
+        font-size: 8vh;
+        text-align: center;
+        width: 360px;
         height: 50px;
+        margin-bottom: 9vh;
     }
 
     header{
@@ -312,18 +363,23 @@ h6 {
     }
 
     .gegevens{
-        width: 360x;
+        width: 360px;
+        height: 1000px;
     }
 
     .projecten{
         width: 360px;
+        height: 400px;
+
 
     }
     .ervaring{
         width: 360px;
+        height: 1000px;
     }
     .contact{
         width: 360px;
+        height: 500px;
     }
 
     .blok1 {
@@ -332,14 +388,15 @@ h6 {
         height: 180px;
         width: 180px;
         font-size: 6vh;
-    padding: 0;
+        padding: 0;
         margin: 0;
+        text-align: center;
     }
 
     .blok2 {
         display: inline-block;
         float: left;
-
+        text-align: center;
         height: 180px;
         width: 180px;
         font-size: 6vh;
@@ -350,10 +407,12 @@ h6 {
     .blok3 {
         display: inline-block;
         float: left;
-
-        height: 150px;
-        width: 150px;
+        text-align: center;
+        height: 180px;
+        width: 180px;
         font-size: 6vh;
+        padding: 0;
+
 
     }
 
@@ -379,9 +438,11 @@ h6 {
         display: inline-block;
         float: left;
 
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
         font-size: 6vh;
+        padding: 0;
+        text-align: center;
 
     }
 
